@@ -172,10 +172,10 @@ function Hero() {
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row lg:justify-around">
+      <section className="flex flex-col lg:flex-row lg:w-[1300px] lg:mx-auto lg:justify-around">
         <div className="">
           <img
-            className=" p-10 max-w-[450px] sm:mx-auto lg:mx-0"
+            className=" p-10 sm:w-[90%] sm:mx-auto"
             src="https://framerusercontent.com/images/cbIdsCeoBI32SK33j3fHyQ7Fb4.png"
             alt=""
           />

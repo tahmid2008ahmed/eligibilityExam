@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Hadar() {
   return (
     <>
@@ -23,7 +24,7 @@ function Hadar() {
         px-8 py-2 text-[15px]
       hover:bg-[#00008B] duration-500 "
           >
-            Book Your Free Audit Call
+            <Link to="/contact">Book Your Free Audit Call</Link>
           </button>
         </div>
       </div>
