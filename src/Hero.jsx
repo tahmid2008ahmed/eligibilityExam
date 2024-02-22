@@ -1,19 +1,18 @@
 function Hero() {
   return (
     <>
-      <div>
+      <div className="slide-top">
         <div className="flex justify-center">
           <h1 className="inline-block p-2 rounded-2xl text-xl bg-white text-[#1A5EFF] font-semibold text-center uppercase">
             services
           </h1>
         </div>
-
         <h1 className="my-10 text-3xl font-semibold text-center">
           <span className="text-[#1A5EFF]">AI-powered</span> automation services
         </h1>
       </div>
 
-      <section className="p-10">
+      <section className="slide-top p-10">
         <div className="hero grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-5 mx-auto m-0 max-w-[1100px]">
           <div className="p-7 bg-white w-[] h-[] flex flex-col gap-3 rounded-3xl">
             <div>
